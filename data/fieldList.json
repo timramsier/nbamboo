@@ -1,0 +1,285 @@
+[{
+  "name": "address1",
+  "type": "text",
+  "description": "The employee's first address line."
+}, {
+  "name": "address2",
+  "type": "text",
+  "description": "The employee's second address line."
+}, {
+  "name": "age",
+  "type": "integer",
+  "description": "The employee's age. To change age, update dateOfBirth field."
+}, {
+  "name": "bestEmail",
+  "type": "email",
+  "description": "The employee's work email if set, otherwise their home email."
+}, {
+  "name": "birthday",
+  "type": "text",
+  "description": "The employee's month and day of birth. To change birthday, update dateOfBirth field."
+}, {
+  "name": "city",
+  "type": "text",
+  "description": "The employee's city."
+}, {
+  "name": "country",
+  "type": "country",
+  "description": "The employee's country."
+}, {
+  "name": "dateOfBirth",
+  "type": "date",
+  "description": "The date the employee was born."
+}, {
+  "name": "department",
+  "type": "list",
+  "description": "The employee's CURRENT department."
+}, {
+  "name": "division",
+  "type": "list",
+  "description": "The employee's CURRENT division."
+}, {
+  "name": "eeo",
+  "type": "list",
+  "description": "The employee's EEO job category. These are defined by the U.S. Equal Employment Opportunity Commission."
+}, {
+  "name": "employeeNumber",
+  "type": "text",
+  "description": "Employee number (assigned by your company)."
+}, {
+  "name": "employmentHistoryStatus",
+  "type": "list",
+  "description": "The employee's CURRENT employment status. Options are customized by account."
+}, {
+  "name": "ethnicity",
+  "type": "list",
+  "description": "The employee's ethnicity."
+}, {
+  "name": "exempt",
+  "type": "list",
+  "description": "The FLSA employee exemption code (Exempt or Non-exempt)."
+}, {
+  "name": "firstName",
+  "type": "text",
+  "description": "The employee's first name."
+}, {
+  "name": "flsaCode",
+  "type": "list",
+  "description": "The employee's FLSA code (Exempt or Non-exempt)."
+}, {
+  "name": "fullName1",
+  "type": "text",
+  "description": "The employee's first and last name. (e.g., John Doe). Read only."
+}, {
+  "name": "fullName2",
+  "type": "text",
+  "description": "The employee's last and first name. (e.g., Doe, John). Read only."
+}, {
+  "name": "fullName3",
+  "type": "text",
+  "description": "The employee's full name and their preferred name. (e.g., Doe, John Quentin (JDog)). Read only."
+}, {
+  "name": "fullName4",
+  "type": "text",
+  "description": "The employee's full name without their preferred name, last name first. (e.g., Doe, John Quentin). Read only."
+}, {
+  "name": "fullName5",
+  "type": "text",
+  "description": "The employee's full name without their preferred name, first name first. (e.g., John Quentin Doe). Read only."
+}, {
+  "name": "displayName",
+  "type": "text",
+  "description": "The employee's name displayed in a format configured by the user. Read only."
+}, {
+  "name": "gender",
+  "type": "gender",
+  "description": "The employee's gender (Male or Female)."
+}, {
+  "name": "hireDate",
+  "type": "date",
+  "description": "The date the employee was hired."
+}, {
+  "name": "homeEmail",
+  "type": "email",
+  "description": "The employee's home email address."
+}, {
+  "name": "homePhone",
+  "type": "phone",
+  "description": "The employee's home phone number."
+}, {
+  "name": "id",
+  "type": "integer",
+  "description": "The employee ID automatically assigned by BambooHR. Read only."
+}, {
+  "name": "jobTitle",
+  "type": "list",
+  "description": "The CURRENT value of the employee's job title, updating this field will create a new row in position history."
+}, {
+  "name": "lastChanged",
+  "type": "timestamp",
+  "description": "The date and time that the employee record was last changed."
+}, {
+  "name": "lastName",
+  "type": "text",
+  "description": "The employee's last name."
+}, {
+  "name": "location",
+  "type": "list",
+  "description": "The employee's CURRENT location."
+}, {
+  "name": "maritalStatus",
+  "type": "list",
+  "description": "The employee's marital status (Single, Married, or Domestic Partnership)."
+}, {
+  "name": "middleName",
+  "type": "text",
+  "description": "The employee's middle name."
+}, {
+  "name": "mobilePhone",
+  "type": "phone",
+  "description": "The employee's mobile phone number."
+}, {
+  "name": "payChangeReason",
+  "type": "list",
+  "description": "The reason for the employee's last pay rate change."
+}, {
+  "name": "payGroup",
+  "type": "list",
+  "description": "The custom pay group that the employee belongs to."
+}, {
+  "name": "payGroupId",
+  "type": "integer",
+  "description": "The ID value corresponding to the pay group that an employee belongs to."
+}, {
+  "name": "payRate",
+  "type": "currency",
+  "description": "The employee's CURRENT pay rate (e.g., $8.25)."
+}, {
+  "name": "payRateEffectiveDate",
+  "type": "date",
+  "description": "The day the most recent change was made."
+}, {
+  "name": "payType",
+  "type": "pay_type",
+  "description": "The employee's CURRENT pay type. ie: \"hourly\",\"salary\",\"commission\",\"exception hourly\",\"monthly\",\"weekly\",\"piece rate\",\"contract\",\"daily\",\"pro rata\"."
+}, {
+  "name": "payPer",
+  "type": "paid_per",
+  "description": "The employee's CURRENT pay per. ie: \"Hour\", \"Day\", \"Week\", \"Month\", \"Quarter\", \"Year\"."
+}, {
+  "name": "paidPer",
+  "type": "paid_per",
+  "description": "The employee's CURRENT pay per. ie: \"Hour\", \"Day\", \"Week\", \"Month\", \"Quarter\", \"Year\"."
+}, {
+  "name": "payPeriod",
+  "type": "pay_period",
+  "description": "The employee's CURRENT pay period. ie: \"Daily\", \"Weekly\", \"Every other week\", \"Twice a month\", \"Monthly\", \"Quarterly\", \"Twice a year\", \"Yearly\"."
+}, {
+  "name": "includeInPayroll",
+  "type": "bool",
+  "description": "Should employee be included in payroll (Yes or No)"
+}, {
+  "name": "preferredName",
+  "type": "text",
+  "description": "The employee's preferred name."
+}, {
+  "name": "ssn",
+  "type": "ssn",
+  "description": "The employee's Social Security number."
+}, {
+  "name": "sin",
+  "type": "sin",
+  "description": "The employee's Canadian Social Insurance Number."
+}, {
+  "name": "state",
+  "type": "state",
+  "description": "The employee's state/province."
+}, {
+  "name": "stateCode",
+  "type": "text",
+  "description": "The 2 character abbreviation for the employee's state (US only). Read only."
+}, {
+  "name": "status",
+  "type": "status",
+  "description": "The employee's employee status (Active or Inactive)."
+}, {
+  "name": "supervisor",
+  "type": "employee",
+  "description": "The employee�s CURRENT supervisor. Read only."
+}, {
+  "name": "supervisorId",
+  "type": "integer",
+  "description": "The 'employeeNumber' of the employee's CURRENT supervisor. Read only."
+}, {
+  "name": "supervisorEId",
+  "type": "integer",
+  "description": "The ID of the employee's CURRENT supervisor. Read only."
+}, {
+  "name": "terminationDate",
+  "type": "date",
+  "description": "The date the employee was terminated."
+}, {
+  "name": "workEmail",
+  "type": "email",
+  "description": "The employee's work email address."
+}, {
+  "name": "workPhone",
+  "type": "phone",
+  "description": "The employee's work phone number, without extension."
+}, {
+  "name": "workPhonePlusExtension",
+  "type": "text",
+  "description": "The employee's work phone and extension. Read only."
+}, {
+  "name": "workPhoneExtension",
+  "type": "text",
+  "description": "The employee's work phone extension (if any)."
+}, {
+  "name": "zipcode",
+  "type": "text",
+  "description": "The employee's ZIP code."
+}, {
+  "name": "isPhotoUploaded",
+  "type": "bool",
+  "description": "Whether a photo has been uploaded for the employee. Read only."
+}, {
+  "name": "rehireDate",
+  "type": "date",
+  "description": "The date the employee was rehired."
+}, {
+  "name": "standardHoursPerWeek",
+  "type": "integer",
+  "description": "The number of hours the employee works in a standard week."
+}, {
+  "name": "bonusDate",
+  "type": "date",
+  "description": "The date of the last bonus."
+}, {
+  "name": "bonusAmount",
+  "type": "currency",
+  "description": "The amount of the most recent bonus."
+}, {
+  "name": "bonusReason",
+  "type": "list",
+  "description": "The reason for the most recent bonus."
+}, {
+  "name": "bonusComment",
+  "type": "text",
+  "description": "Comment about the most recent bonus."
+}, {
+  "name": "commissionDate",
+  "type": "date",
+  "description": "The date of the last commission."
+}, {
+  "name": "commisionDate",
+  "type": "date",
+  "description": "This field name contains a typo, and exists for backwards compatibility."
+}, {
+  "name": "commissionAmount",
+  "type": "currency",
+  "description": "The amount of the most recent commission."
+}, {
+  "name": "commissionComment",
+  "type": "text",
+  "description": "Comment about the most recent commission."
+}]
